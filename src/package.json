@@ -1,0 +1,29 @@
+{
+    "name": "src",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "firebase": "^7.19.1",
+        "link-module-alias": "^1.2.0",
+        "module-alias": "^2.2.2"
+    },
+    "scripts": {
+        "start": "link-module-alias && node server.js",
+        "dev": "link-module-alias && nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KuryKat/Learning-BackEnd.git"
+    },
+    "author": "KuryKat",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KuryKat/Learning-BackEnd/issues"
+    },
+    "homepage": "https://github.com/KuryKat/Learning-BackEnd#readme",
+    "_moduleAliases": {
+        "database": "manager/database/database.js"
+    }
+}
