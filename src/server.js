@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 
 app.route('/search')
     .get((req, res) => {
-        res.send(`É SÓ COLOCAR /book/ID E DAR ENTER, AINDA N FIZ ESSA BUSCA NÃO, VAI SE FUDER<br>
+        res.send(`É SÓ COLOCAR /book/ID E DAR ENTER, AINDA N FIZ ESSA BUSCA NÃO!br>
         <a href="http://localhost:3000/book/1">Clique Aqui Pra um Exemplo</a>
         `)
     })
